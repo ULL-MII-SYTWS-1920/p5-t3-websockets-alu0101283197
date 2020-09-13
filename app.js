@@ -4,17 +4,12 @@ const port = process.env.PORT || 3090;
 
 const rooms = [
     {
-        id: 'practices1',
-        label: 'Práctica1'
+        id: 'practices',
+        label: 'Prácticas'
     },
     {
-        id: 'practices2',
-        label: 'Práctica2'
-    }
-    ,
-    {
-        id: 'practices3',
-        label: 'Práctica3'
+        id: 'foro',
+        label: 'Foro'
     }
 ];
 

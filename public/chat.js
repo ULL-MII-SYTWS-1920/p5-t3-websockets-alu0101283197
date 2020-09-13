@@ -41,7 +41,7 @@ $(function(){
 	//Listen on typing
 	let typingTimeout;
 	socket.on('typing', (data) => {
-		feedback.html("<p><i>" + data.username + " está escribiendo un mensaje..." + "</i></p>");
+		feedback.html("<p><i>" + data.username + " is typing a message..." + "</i></p>");
 		clearTimeout(typingTimeout);
 
 		typingTimeout = setTimeout(() => {

@@ -4,15 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app",
     "dev": "nodemon app"
   },
   "engines": {
     "node": "8.x",
     "npm": "6.x"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "repository": {
     "type": "git",
