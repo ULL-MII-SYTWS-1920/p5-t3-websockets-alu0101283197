@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "node index.ejs",
+    "build": "express"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "6.x"
   },
   "eslintConfig": {
     "extends": "react-app"
