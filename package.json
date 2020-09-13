@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.ejs",
-    "build": "express"
+    "start": "node app",
+    "dev": "nodemon app"
   },
   "engines": {
     "node": "8.x",
